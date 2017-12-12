@@ -48,7 +48,9 @@ services:
       - "SSM_PARAM_TWILIO_ACCOUNT_SID=1"
 ```
 
-`/usr/bin/env` would report the following to stdout:
+Assuming the run environment has a policy granting access to the parameter paths
+and associated decryption key, `/usr/bin/env` would report the following to
+stdout:
 ```
 ...
 DATABASE_PASSWORD=pa55w0rd
