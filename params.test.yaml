@@ -1,0 +1,12 @@
+params:
+  /ci/api/DB_PASSWORD: ci_db_password_new
+  /ci/api/TOKEN: ci_token
+  /ci/gw/PRIVATE_KEY: ci_private_key
+
+  /qa/api/DB_PASSWORD: qa_db_password
+  /qa/api/TOKEN: qa_token
+  /qa/gw/PRIVATE_KEY: qa_private_key
+
+  /live/api/DB_PASSWORD: live_db_password
+  /live/api/TOKEN: live_token
+  /live/gw/PRIVATE_KEY: live_private_key
